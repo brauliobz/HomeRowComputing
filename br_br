@@ -1,0 +1,58 @@
+// Layout made by Braulio Bezerra for home-row computing,
+// based on Ubuntu's default abnt2 layout
+
+default
+xkb_symbols "abnt2" {
+
+    include "latin"
+    name[Group1]="Brazil";
+
+    key <AE02>	{ [         2,         at,  twosuperior,      onehalf ]	};
+    key <AE03>	{ [         3, numbersign, threesuperior, threequarters ] };
+    key <AE04>	{ [         4,     dollar,     sterling,   onequarter ]	};
+    key <AE05>	{ [         5,    percent,         cent, threeeighths ]	};
+    key <AE06>	{ [         6, dead_diaeresis,  notsign,    diaeresis ]	};
+    key <AE12>	{ [     equal,       plus,      section,  dead_ogonek ]	};
+
+    key <AD01>  { [         q,          Q,        slash,        slash ] };   
+    key <AD02>  { [         w,          W,     question,     question ] };   
+    key <AD03>	{ [         e,          E,     EuroSign,     EuroSign ]	};
+    key <AD04>	{ [         r,          R,   registered,   registered ]	};
+    key <AD07>	{ [         u,          U,         Home,         Home ]	};
+    key <AD08>	{ [         i,          I,           Up,           Up ]	};
+    key <AD09>	{ [         o,          O,          End,          End ]	};
+    key <AD10>	{ [         p,          P,      Page_Up,      Page_Up ]	};
+    key <AD11>	{ [dead_acute, dead_grave,        acute,        grave ]	};
+    key <AD12>	{ [bracketleft,  braceleft, ordfeminine,  dead_macron ]	};
+
+    key <AC06>	{ [         h,          H,    BackSpace,    BackSpace ]	};
+    key <AC07>	{ [         j,          J,         Left,         Left ]	};
+    key <AC08>	{ [         k,          K,         Down,         Down ]	};
+    key <AC09>	{ [         l,          L,        Right,        Right ]	};
+    key <AC10>	{ [  ccedilla,   Ccedilla,    Page_Down,    Page_Down ] };
+    key <AC11>	{ [dead_tilde, dead_circumflex, asciitilde, asciicircum ] };
+    key <BKSL>  { [bracketright, braceright,  masculine,    masculine   ] };
+
+    key <TLDE>	{ [apostrophe,   quotedbl,      notsign,      notsign ]	};
+
+    key <LSGT>	{ [ backslash,        bar,    masculine,   dead_breve ]	};
+    key <AB03>	{ [         c,          C,    copyright,    copyright ]	};
+    key <AB06>  { [         n,          N,       Return,       Return ] };
+    key <AB07>  { [         m,          M,       Delete,       Delete ] };
+    key <AB10>	{ [ semicolon,    colon, dead_belowdot, dead_abovedot ]	};
+
+// ABNT-2 keyboard has this special key
+
+    key <AB11>	{ [     slash,   question,       degree, questiondown ]	};
+
+    key <KPPT>	{ [ KP_Decimal ]	};
+
+    key <CAPS>  { type[Group1]="TWO_LEVEL", [ISO_Level3_Shift, Multi_key] };
+
+    include "kpdl(comma)"
+
+    include "level3(ralt_switch)"
+
+};
+
+
