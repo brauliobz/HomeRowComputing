@@ -1457,7 +1457,6 @@
             <name>workman-intl</name>
             <description>English (Workman, international with dead keys)</description>
            </configItem>
-         </variant>
         </variant>
       </variantList>
     </layout>
