@@ -1458,13 +1458,16 @@
             <description>English (Workman, international with dead keys)</description>
            </configItem>
          </variant>
-        <variant>
-          <configItem>
-            <name>braulio</name>
-            <description>US Intl Braulio</description>
-          </configItem>
         </variant>
       </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>us_ijkl</name>
+        <shortDescription>usi</shortDescription>
+        <description>English (Intl) IJKL Control</description>
+        <languageList><iso639Id>eng</iso639Id></languageList>
+      </configItem>
     </layout>
     <layout>
       <configItem>
@@ -2283,7 +2286,7 @@
     <layout>
       <configItem>
         <name>br_br</name>
-        <shortDescription>BraBra</shortDescription>
+        <shortDescription>BrB</shortDescription>
         <description>Portuguese (Brazil Braulio)</description>
         <languageList><iso639Id>por</iso639Id></languageList>
       </configItem>
