@@ -1,0 +1,4 @@
+include "%S/pt_BR.UTF-8/Compose"
+<dead_acute> <C> : "Ç"
+<dead_acute> <c> : "ç"
+
