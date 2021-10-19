@@ -310,6 +310,7 @@
   dvorak-r        us: English (Dvorak, right-handed)
   dvorak-classic  us: English (classic Dvorak)
   dvp             us: English (programmer Dvorak)
+  dvorak-mac      us: English (Dvorak, Macintosh)
   symbolic        us: English (US, Symbolic)
   rus             us: Russian (US, phonetic)
   mac             us: English (Macintosh)
@@ -709,6 +710,7 @@
   ot              tr: Ottoman
   otf             tr: Ottoman (F)
   otk             tr: Old Turkic
+  otkf            tr: Old Turkic (F)
   indigenous      tw: Taiwanese (indigenous)
   saisiyat        tw: Saisiyat (Taiwan)
   phonetic        ua: Ukrainian (phonetic)
