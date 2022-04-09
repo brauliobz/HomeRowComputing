@@ -193,7 +193,7 @@
 ! layout
   us              English (US)
   us_ijkl         English (Intl) IJKL Control
-  af              Afghani
+  af              Dari
   ara             Arabic
   al              Albanian
   am              Armenian
@@ -270,7 +270,6 @@
   uz              Uzbek
   vn              Vietnamese
   kr              Korean
-  nec_vndr/jp     Japanese (PC-98)
   ie              Irish
   pk              Urdu (Pakistan)
   mv              Dhivehi
@@ -322,8 +321,8 @@
   workman-intl    us: English (Workman, intl., with dead keys)
   ps              af: Pashto
   uz              af: Uzbek (Afghanistan)
-  olpc-ps         af: Pashto (Afghanistan, OLPC)
-  fa-olpc         af: Persian (Afghanistan, Dari OLPC)
+  ps-olpc         af: Pashto (Afghanistan, OLPC)
+  fa-olpc         af: Dari (Afghanistan, OLPC)
   uz-olpc         af: Uzbek (Afghanistan, OLPC)
   azerty          ara: Arabic (AZERTY)
   azerty_digits   ara: Arabic (AZERTY, Eastern Arabic numerals)
@@ -416,12 +415,17 @@
   tifinagh-extended ma: Berber (Morocco, Tifinagh extended)
   tifinagh-phonetic ma: Berber (Morocco, Tifinagh phonetic)
   tifinagh-extended-phonetic ma: Berber (Morocco, Tifinagh extended phonetic)
+  rif             ma: Tarifit
   french          cm: French (Cameroon)
   qwerty          cm: Cameroon Multilingual (QWERTY, intl.)
   azerty          cm: Cameroon (AZERTY, intl.)
   dvorak          cm: Cameroon (Dvorak, intl.)
   mmuock          cm: Mmuock
   zawgyi          mm: Burmese Zawgyi
+  shn             mm: Shan
+  zgt             mm: Shan (Zawgyi Tai)
+  mnw             mm: Mon
+  mnw-a1          mm: Mon (A1)
   fr-dvorak       ca: French (Canada, Dvorak)
   fr-legacy       ca: French (Canada, legacy)
   multix          ca: Canadian (intl.)
@@ -439,7 +443,7 @@
   tib             cn: Tibetan
   tib_asciinum    cn: Tibetan (with ASCII numerals)
   ug              cn: Uyghur
-  altgr-pinyin    cn: Hanyu Pinyin (with AltGr dead keys)
+  altgr-pinyin    cn: Hanyu Pinyin Letters (with AltGr dead keys)
   alternatequotes hr: Croatian (with guillemets)
   unicode         hr: Croatian (with Croatian digraphs)
   unicodeus       hr: Croatian (US, with Croatian digraphs)
@@ -704,10 +708,7 @@
   ku_f            tr: Kurdish (Turkey, F)
   ku_alt          tr: Kurdish (Turkey, Latin Alt-Q)
   intl            tr: Turkish (intl., with dead keys)
-  crh             tr: Crimean Tatar (Turkish Q)
-  crh_f           tr: Crimean Tatar (Turkish F)
-  crh_alt         tr: Crimean Tatar (Turkish Alt-Q)
-  ot              tr: Ottoman
+  ot              tr: Ottoman (Q)
   otf             tr: Ottoman (F)
   otk             tr: Old Turkic
   otkf            tr: Old Turkic (F)
@@ -716,10 +717,14 @@
   phonetic        ua: Ukrainian (phonetic)
   typewriter      ua: Ukrainian (typewriter)
   winkeys         ua: Ukrainian (Windows)
+  macOS           ua: Ukrainian (macOS)
   legacy          ua: Ukrainian (legacy)
   rstu            ua: Ukrainian (standard RSTU)
   rstu_ru         ua: Russian (Ukraine, standard RSTU)
   homophonic      ua: Ukrainian (homophonic)
+  crh             ua: Crimean Tatar (Turkish Q)
+  crh_f           ua: Crimean Tatar (Turkish F)
+  crh_alt         ua: Crimean Tatar (Turkish Alt-Q)
   extd            gb: English (UK, extended, Windows)
   intl            gb: English (UK, intl., with dead keys)
   dvorak          gb: English (UK, Dvorak)
@@ -729,6 +734,7 @@
   colemak         gb: English (UK, Colemak)
   colemak_dh      gb: English (UK, Colemak-DH)
   pl              gb: Polish (British keyboard)
+  gla             gb: Scottish Gaelic
   latin           uz: Uzbek (Latin)
   us              vn: Vietnamese (US)
   fr              vn: Vietnamese (French)
@@ -764,6 +770,7 @@
   dvorak          ph: Filipino (Dvorak, Latin)
   dvorak-bay      ph: Filipino (Dvorak, Baybayin)
   gag             md: Moldavian (Gagauz)
+  phonetic        id: Indonesian (Arab Pegon, phonetic)
   phoneticx       id: Indonesian (Arab Pegon, extended phonetic)
   phonetic        my: Malay (Jawi, phonetic)
 
