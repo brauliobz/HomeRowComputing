@@ -346,6 +346,7 @@
   latin           by: Belarusian (Latin)
   ru              by: Russian (Belarus)
   intl            by: Belarusian (intl.)
+  phonetic        by: Belarusian (phonetic)
   oss             be: Belgian (alt.)
   oss_latin9      be: Belgian (Latin-9 only, alt.)
   iso-alternate   be: Belgian (ISO, alt.)
@@ -371,11 +372,12 @@
   ori-bolnagri    in: Oriya (Bolnagri)
   ori-wx          in: Oriya (Wx)
   olck            in: Ol Chiki
-  tam_tamilnet    in: Tamil (TamilNet '99)
-  tam_tamilnet_with_tam_nums in: Tamil (TamilNet '99 with Tamil numerals)
-  tam_tamilnet_TAB in: Tamil (TamilNet '99, TAB encoding)
-  tam_tamilnet_TSCII in: Tamil (TamilNet '99, TSCII encoding)
-  tam             in: Tamil (InScript)
+  tamilnet        in: Tamil (TamilNet '99)
+  tamilnet_tamilnumbers in: Tamil (TamilNet '99 with Tamil numerals)
+  tamilnet_TAB    in: Tamil (TamilNet '99, TAB encoding)
+  tamilnet_TSCII  in: Tamil (TamilNet '99, TSCII encoding)
+  tam             in: Tamil (InScript, with Arabic numerals)
+  tam_tamilnumbers in: Tamil (InScript, with Tamil numerals)
   tel             in: Telugu
   tel-kagapa      in: Telugu (KaGaPa, phonetic)
   tel-sarala      in: Telugu (Sarala)
@@ -428,9 +430,7 @@
   mnw-a1          mm: Mon (A1)
   fr-dvorak       ca: French (Canada, Dvorak)
   fr-legacy       ca: French (Canada, legacy)
-  multix          ca: Canadian (intl.)
-  multi           ca: Canadian (intl., 1st part)
-  multi-2gr       ca: Canadian (intl., 2nd part)
+  multix          ca: Canadian (CSA)
   ike             ca: Inuktitut
   eng             ca: English (Canada)
   mon_trad        cn: Mongolian (Bichig)
@@ -467,6 +467,7 @@
   dvorak          ee: Estonian (Dvorak)
   us              ee: Estonian (US)
   pes_keypad      ir: Persian (with Persian keypad)
+  azb             ir: Azerbaijani (Iran)
   ku              ir: Kurdish (Iran, Latin Q)
   ku_f            ir: Kurdish (Iran, F)
   ku_alt          ir: Kurdish (Iran, Latin Alt-Q)
@@ -582,7 +583,6 @@
   deadtilde       latam: Spanish (Latin American, dead tilde)
   dvorak          latam: Spanish (Latin American, Dvorak)
   colemak         latam: Spanish (Latin American, Colemak)
-  colemak-gaming  latam: Spanish (Latin American, Colemak for gaming)
   std             lt: Lithuanian (standard)
   us              lt: Lithuanian (US)
   ibm             lt: Lithuanian (IBM LST 1205-92)
@@ -773,8 +773,9 @@
   dvorak-bay      ph: Filipino (Dvorak, Baybayin)
   gag             md: Moldavian (Gagauz)
   javanese        id: Javanese
-  phonetic        id: Indonesian (Arab Pegon, phonetic)
-  phoneticx       id: Indonesian (Arab Pegon, extended phonetic)
+  melayu-phonetic id: Indonesian (Arab Melayu, phonetic)
+  melayu-phoneticx id: Indonesian (Arab Melayu, extended phonetic)
+  pegon-phonetic  id: Indonesian (Arab Pegon, phonetic)
   phonetic        my: Malay (Jawi, phonetic)
 
 ! option
@@ -791,9 +792,9 @@
   grp:lalt_toggle      Left Alt
   grp:caps_toggle      Caps Lock
   grp:shift_caps_toggle Shift+Caps Lock
-  grp:shift_caps_switch Caps Lock to first layout; Shift+Caps Lock to second layout
-  grp:win_menu_switch  Left Win to first layout; Right Win/Menu to second layout
-  grp:lctrl_rctrl_switch Left Ctrl to first layout; Right Ctrl to second layout
+  grp:caps_select      Caps Lock to first layout; Shift+Caps Lock to second layout
+  grp:win_menu_select  Left Win to first layout; Right Win/Menu to second layout
+  grp:ctrl_select      Left Ctrl to first layout; Right Ctrl to second layout
   grp:alt_caps_toggle  Alt+Caps Lock
   grp:shifts_toggle    Both Shifts together
   grp:alts_toggle      Both Alts together
@@ -843,7 +844,7 @@
   ctrl:nocaps          Caps Lock as Ctrl
   ctrl:lctrl_meta      Left Ctrl as Meta
   ctrl:swapcaps        Swap Ctrl and Caps Lock
-  ctrl:swapcaps_hyper  Caps Lock as Ctrl, Ctrl as Hyper
+  ctrl:hyper_capscontrol Caps Lock as Ctrl, Ctrl as Hyper
   ctrl:ac_ctrl         To the left of "A"
   ctrl:aa_ctrl         At the bottom left
   ctrl:rctrl_ralt      Right Ctrl as Right Alt
@@ -973,7 +974,6 @@
   nbsp:none            Usual space at any level
   nbsp:level2          Non-breaking space at the 2nd level
   nbsp:level3          Non-breaking space at the 3rd level
-  nbsp:level3s         Non-breaking space at the 3rd level, nothing at the 4th level
   nbsp:level3n         Non-breaking space at the 3rd level, thin non-breaking space at the 4th level
   nbsp:level4          Non-breaking space at the 4th level
   nbsp:level4n         Non-breaking space at the 4th level, thin non-breaking space at the 6th level
@@ -982,7 +982,6 @@
   nbsp:zwnj2zwj3       Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level
   nbsp:zwnj2zwj3nb4    Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level, non-breaking space at the 4th level
   nbsp:zwnj2nb3        Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level
-  nbsp:zwnj2nb3s       Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, nothing at the 4th level
   nbsp:zwnj2nb3zwj4    Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, zero-width joiner at the 4th level
   nbsp:zwnj2nb3nnb4    Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, thin non-breaking space at the 4th level
   nbsp:zwnj3zwj4       Zero-width non-joiner at the 3rd level, zero-width joiner at the 4th level

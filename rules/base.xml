@@ -1727,7 +1727,7 @@
         <shortDescription>hy</shortDescription>
         <description>Armenian</description>
         <countryList>
-          <iso3166Id>AL</iso3166Id>
+          <iso3166Id>AM</iso3166Id>
         </countryList>
         <languageList>
           <iso639Id>hye</iso639Id>
@@ -1860,12 +1860,21 @@
           <configItem>
             <name>ru</name>
             <description>Russian (Belarus)</description>
+            <languageList>
+              <iso639Id>rus</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>intl</name>
             <description>Belarusian (intl.)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>phonetic</name>
+            <description>Belarusian (phonetic)</description>
           </configItem>
         </variant>
       </variantList>
@@ -2229,7 +2238,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_tamilnet</name>
+            <name>tamilnet</name>
             <!-- Keyboard indicator for Tamil layouts -->
             <shortDescription>ta</shortDescription>
             <description>Tamil (TamilNet '99)</description>
@@ -2240,7 +2249,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_tamilnet_with_tam_nums</name>
+            <name>tamilnet_tamilnumbers</name>
             <!-- Keyboard indicator for Tamil layouts -->
             <shortDescription>ta</shortDescription>
             <description>Tamil (TamilNet '99 with Tamil numerals)</description>
@@ -2251,7 +2260,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_tamilnet_TAB</name>
+            <name>tamilnet_TAB</name>
             <!-- Keyboard indicator for Tamil layouts -->
             <shortDescription>ta</shortDescription>
             <description>Tamil (TamilNet '99, TAB encoding)</description>
@@ -2262,7 +2271,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_tamilnet_TSCII</name>
+            <name>tamilnet_TSCII</name>
             <!-- Keyboard indicator for Tamil layouts -->
             <shortDescription>ta</shortDescription>
             <description>Tamil (TamilNet '99, TSCII encoding)</description>
@@ -2276,7 +2285,18 @@
             <name>tam</name>
             <!-- Keyboard indicator for Tamil layouts -->
             <shortDescription>ta</shortDescription>
-            <description>Tamil (InScript)</description>
+            <description>Tamil (InScript, with Arabic numerals)</description>
+            <languageList>
+              <iso639Id>tam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_tamilnumbers</name>
+            <!-- Keyboard indicator for Tamil layouts -->
+            <shortDescription>ta</shortDescription>
+            <description>Tamil (InScript, with Tamil numerals)</description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -2957,19 +2977,7 @@
         <variant>
           <configItem>
             <name>multix</name>
-            <description>Canadian (intl.)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>multi</name>
-            <description>Canadian (intl., 1st part)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>multi-2gr</name>
-            <description>Canadian (intl., 2nd part)</description>
+            <description>Canadian (CSA)</description>
           </configItem>
         </variant>
         <variant>
@@ -3378,6 +3386,16 @@
           <configItem>
             <name>pes_keypad</name>
             <description>Persian (with Persian keypad)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>azb</name>
+            <shortDescription>azb</shortDescription>
+            <description>Azerbaijani (Iran)</description>
+            <languageList>
+              <iso639Id>azb</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
@@ -4539,12 +4557,6 @@
           <configItem>
             <name>colemak</name>
             <description>Spanish (Latin American, Colemak)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>colemak-gaming</name>
-            <description>Spanish (Latin American, Colemak for gaming)</description>
           </configItem>
         </variant>
       </variantList>
@@ -6810,14 +6822,20 @@
        </variant>
        <variant>
          <configItem>
-          <name>phonetic</name>
-            <description>Indonesian (Arab Pegon, phonetic)</description>
+          <name>melayu-phonetic</name>
+            <description>Indonesian (Arab Melayu, phonetic)</description>
          </configItem>
        </variant>
        <variant>
          <configItem>
-          <name>phoneticx</name>
-            <description>Indonesian (Arab Pegon, extended phonetic)</description>
+          <name>melayu-phoneticx</name>
+            <description>Indonesian (Arab Melayu, extended phonetic)</description>
+         </configItem>
+       </variant>
+       <variant>
+         <configItem>
+          <name>pegon-phonetic</name>
+            <description>Indonesian (Arab Pegon, phonetic)</description>
          </configItem>
        </variant>
       </variantList>
@@ -6939,19 +6957,19 @@
       </option>
       <option>
         <configItem>
-          <name>grp:shift_caps_switch</name>
+          <name>grp:caps_select</name>
           <description>Caps Lock to first layout; Shift+Caps Lock to second layout</description>
         </configItem>
       </option>
       <option>
         <configItem>
-          <name>grp:win_menu_switch</name>
+          <name>grp:win_menu_select</name>
           <description>Left Win to first layout; Right Win/Menu to second layout</description>
         </configItem>
       </option>
       <option>
         <configItem>
-          <name>grp:lctrl_rctrl_switch</name>
+          <name>grp:ctrl_select</name>
           <description>Left Ctrl to first layout; Right Ctrl to second layout</description>
         </configItem>
       </option>
@@ -7255,7 +7273,7 @@
       </option>
       <option>
         <configItem>
-          <name>ctrl:swapcaps_hyper</name>
+          <name>ctrl:hyper_capscontrol</name>
           <description>Caps Lock as Ctrl, Ctrl as Hyper</description>
         </configItem>
       </option>
@@ -8028,12 +8046,6 @@
       </option>
       <option>
         <configItem>
-          <name>nbsp:level3s</name>
-          <description>Non-breaking space at the 3rd level, nothing at the 4th level</description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
           <name>nbsp:level3n</name>
           <description>Non-breaking space at the 3rd level, thin non-breaking space at the 4th level</description>
         </configItem>
@@ -8078,12 +8090,6 @@
         <configItem>
           <name>nbsp:zwnj2nb3</name>
           <description>Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level</description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
-          <name>nbsp:zwnj2nb3s</name>
-          <description>Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, nothing at the 4th level</description>
         </configItem>
       </option>
       <option>
