@@ -636,6 +636,8 @@
   phonetic_winkeys ru: Russian (phonetic, Windows)
   phonetic_YAZHERTY ru: Russian (phonetic, YAZHERTY)
   typewriter      ru: Russian (typewriter)
+  ruchey_ru       ru: Russian (engineering, RU)
+  ruchey_en       ru: Russian (engineering, EN)
   legacy          ru: Russian (legacy)
   typewriter-legacy ru: Russian (typewriter, legacy)
   tt              ru: Tatar
@@ -926,6 +928,7 @@
   compose:102          The "&lt; &gt;" key
   compose:102-altgr    3rd level of the "&lt; &gt;" key
   compose:paus         Pause
+  compose:ins          Insert
   compose:prsc         PrtSc
   compose:sclk         Scroll Lock
   compat               Compatibility options
