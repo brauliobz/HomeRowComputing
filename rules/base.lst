@@ -189,12 +189,11 @@
   teck229         Truly Ergonomic 229
   apex300         SteelSeries Apex 300 (Apex RAW)
   chromebook      Chromebook
-  ppkb            PinePhone Keyboard
 
 ! layout
   us              English (US)
   us_ijkl         English (Intl) IJKL Control
-  af              Dari
+  af              Afghani
   ara             Arabic
   al              Albanian
   am              Armenian
@@ -271,6 +270,7 @@
   uz              Uzbek
   vn              Vietnamese
   kr              Korean
+  nec_vndr/jp     Japanese (PC-98)
   ie              Irish
   pk              Urdu (Pakistan)
   mv              Dhivehi
@@ -290,6 +290,7 @@
   ph              Filipino
   md              Moldavian
   id              Indonesian (Latin)
+  jv              Indonesian (Javanese)
   my              Malay (Jawi, Arabic Keyboard)
   custom          A user-defined custom Layout
 
@@ -309,7 +310,6 @@
   dvorak-r        us: English (Dvorak, right-handed)
   dvorak-classic  us: English (classic Dvorak)
   dvp             us: English (programmer Dvorak)
-  dvorak-mac      us: English (Dvorak, Macintosh)
   symbolic        us: English (US, Symbolic)
   rus             us: Russian (US, phonetic)
   mac             us: English (Macintosh)
@@ -321,8 +321,8 @@
   workman-intl    us: English (Workman, intl., with dead keys)
   ps              af: Pashto
   uz              af: Uzbek (Afghanistan)
-  ps-olpc         af: Pashto (Afghanistan, OLPC)
-  fa-olpc         af: Dari (Afghanistan, OLPC)
+  olpc-ps         af: Pashto (Afghanistan, OLPC)
+  fa-olpc         af: Persian (Afghanistan, Dari OLPC)
   uz-olpc         af: Uzbek (Afghanistan, OLPC)
   azerty          ara: Arabic (AZERTY)
   azerty_digits   ara: Arabic (AZERTY, Eastern Arabic numerals)
@@ -346,7 +346,6 @@
   latin           by: Belarusian (Latin)
   ru              by: Russian (Belarus)
   intl            by: Belarusian (intl.)
-  phonetic        by: Belarusian (phonetic)
   oss             be: Belgian (alt.)
   oss_latin9      be: Belgian (Latin-9 only, alt.)
   iso-alternate   be: Belgian (ISO, alt.)
@@ -372,12 +371,11 @@
   ori-bolnagri    in: Oriya (Bolnagri)
   ori-wx          in: Oriya (Wx)
   olck            in: Ol Chiki
-  tamilnet        in: Tamil (TamilNet '99)
-  tamilnet_tamilnumbers in: Tamil (TamilNet '99 with Tamil numerals)
-  tamilnet_TAB    in: Tamil (TamilNet '99, TAB encoding)
-  tamilnet_TSCII  in: Tamil (TamilNet '99, TSCII encoding)
-  tam             in: Tamil (InScript, with Arabic numerals)
-  tam_tamilnumbers in: Tamil (InScript, with Tamil numerals)
+  tam_tamilnet    in: Tamil (TamilNet '99)
+  tam_tamilnet_with_tam_nums in: Tamil (TamilNet '99 with Tamil numerals)
+  tam_tamilnet_TAB in: Tamil (TamilNet '99, TAB encoding)
+  tam_tamilnet_TSCII in: Tamil (TamilNet '99, TSCII encoding)
+  tam             in: Tamil (InScript)
   tel             in: Telugu
   tel-kagapa      in: Telugu (KaGaPa, phonetic)
   tel-sarala      in: Telugu (Sarala)
@@ -417,20 +415,17 @@
   tifinagh-extended ma: Berber (Morocco, Tifinagh extended)
   tifinagh-phonetic ma: Berber (Morocco, Tifinagh phonetic)
   tifinagh-extended-phonetic ma: Berber (Morocco, Tifinagh extended phonetic)
-  rif             ma: Tarifit
   french          cm: French (Cameroon)
   qwerty          cm: Cameroon Multilingual (QWERTY, intl.)
   azerty          cm: Cameroon (AZERTY, intl.)
   dvorak          cm: Cameroon (Dvorak, intl.)
   mmuock          cm: Mmuock
   zawgyi          mm: Burmese Zawgyi
-  shn             mm: Shan
-  zgt             mm: Shan (Zawgyi Tai)
-  mnw             mm: Mon
-  mnw-a1          mm: Mon (A1)
   fr-dvorak       ca: French (Canada, Dvorak)
   fr-legacy       ca: French (Canada, legacy)
-  multix          ca: Canadian (CSA)
+  multix          ca: Canadian (intl.)
+  multi           ca: Canadian (intl., 1st part)
+  multi-2gr       ca: Canadian (intl., 2nd part)
   ike             ca: Inuktitut
   eng             ca: English (Canada)
   mon_trad        cn: Mongolian (Bichig)
@@ -443,7 +438,7 @@
   tib             cn: Tibetan
   tib_asciinum    cn: Tibetan (with ASCII numerals)
   ug              cn: Uyghur
-  altgr-pinyin    cn: Hanyu Pinyin Letters (with AltGr dead keys)
+  altgr-pinyin    cn: Hanyu Pinyin (with AltGr dead keys)
   alternatequotes hr: Croatian (with guillemets)
   unicode         hr: Croatian (with Croatian digraphs)
   unicodeus       hr: Croatian (US, with Croatian digraphs)
@@ -467,7 +462,6 @@
   dvorak          ee: Estonian (Dvorak)
   us              ee: Estonian (US)
   pes_keypad      ir: Persian (with Persian keypad)
-  azb             ir: Azerbaijani (Iran)
   ku              ir: Kurdish (Iran, Latin Q)
   ku_f            ir: Kurdish (Iran, F)
   ku_alt          ir: Kurdish (Iran, Latin Alt-Q)
@@ -495,7 +489,7 @@
   mac             fr: French (Macintosh)
   azerty          fr: French (AZERTY)
   afnor           fr: French (AZERTY, AFNOR)
-  bre             fr: Breton (France)
+  bre             fr: French (Breton)
   oci             fr: Occitan
   geo             fr: Georgian (France, AZERTY Tskapo)
   us              fr: French (US)
@@ -583,6 +577,7 @@
   deadtilde       latam: Spanish (Latin American, dead tilde)
   dvorak          latam: Spanish (Latin American, Dvorak)
   colemak         latam: Spanish (Latin American, Colemak)
+  colemak-gaming  latam: Spanish (Latin American, Colemak for gaming)
   std             lt: Lithuanian (standard)
   us              lt: Lithuanian (US)
   ibm             lt: Lithuanian (IBM LST 1205-92)
@@ -636,8 +631,6 @@
   phonetic_winkeys ru: Russian (phonetic, Windows)
   phonetic_YAZHERTY ru: Russian (phonetic, YAZHERTY)
   typewriter      ru: Russian (typewriter)
-  ruchey_ru       ru: Russian (engineering, RU)
-  ruchey_en       ru: Russian (engineering, EN)
   legacy          ru: Russian (legacy)
   typewriter-legacy ru: Russian (typewriter, legacy)
   tt              ru: Tatar
@@ -657,7 +650,6 @@
   phonetic_azerty ru: Russian (phonetic, AZERTY)
   phonetic_dvorak ru: Russian (phonetic, Dvorak)
   phonetic_fr     ru: Russian (phonetic, French)
-  ab              ru: Abkhazian (Russia)
   yz              rs: Serbian (Cyrillic, ZE and ZHE swapped)
   latin           rs: Serbian (Latin)
   latinunicode    rs: Serbian (Latin, Unicode)
@@ -706,29 +698,26 @@
   tis             th: Thai (TIS-820.2538)
   pat             th: Thai (Pattachote)
   f               tr: Turkish (F)
-  e               tr: Turkish (E)
   alt             tr: Turkish (Alt-Q)
   ku              tr: Kurdish (Turkey, Latin Q)
   ku_f            tr: Kurdish (Turkey, F)
   ku_alt          tr: Kurdish (Turkey, Latin Alt-Q)
   intl            tr: Turkish (intl., with dead keys)
-  ot              tr: Ottoman (Q)
+  crh             tr: Crimean Tatar (Turkish Q)
+  crh_f           tr: Crimean Tatar (Turkish F)
+  crh_alt         tr: Crimean Tatar (Turkish Alt-Q)
+  ot              tr: Ottoman
   otf             tr: Ottoman (F)
   otk             tr: Old Turkic
-  otkf            tr: Old Turkic (F)
   indigenous      tw: Taiwanese (indigenous)
   saisiyat        tw: Saisiyat (Taiwan)
   phonetic        ua: Ukrainian (phonetic)
   typewriter      ua: Ukrainian (typewriter)
   winkeys         ua: Ukrainian (Windows)
-  macOS           ua: Ukrainian (macOS)
   legacy          ua: Ukrainian (legacy)
   rstu            ua: Ukrainian (standard RSTU)
   rstu_ru         ua: Russian (Ukraine, standard RSTU)
   homophonic      ua: Ukrainian (homophonic)
-  crh             ua: Crimean Tatar (Turkish Q)
-  crh_f           ua: Crimean Tatar (Turkish F)
-  crh_alt         ua: Crimean Tatar (Turkish Alt-Q)
   extd            gb: English (UK, extended, Windows)
   intl            gb: English (UK, intl., with dead keys)
   dvorak          gb: English (UK, Dvorak)
@@ -738,10 +727,9 @@
   colemak         gb: English (UK, Colemak)
   colemak_dh      gb: English (UK, Colemak-DH)
   pl              gb: Polish (British keyboard)
-  gla             gb: Scottish Gaelic
   latin           uz: Uzbek (Latin)
   us              vn: Vietnamese (US)
-  fr              vn: Vietnamese (France)
+  fr              vn: Vietnamese (French)
   kr104           kr: Korean (101/104-key compatible)
   CloGaelach      ie: CloGaelach
   UnicodeExpert   ie: Irish (UnicodeExpert)
@@ -774,10 +762,7 @@
   dvorak          ph: Filipino (Dvorak, Latin)
   dvorak-bay      ph: Filipino (Dvorak, Baybayin)
   gag             md: Moldavian (Gagauz)
-  javanese        id: Javanese
-  melayu-phonetic id: Indonesian (Arab Melayu, phonetic)
-  melayu-phoneticx id: Indonesian (Arab Melayu, extended phonetic)
-  pegon-phonetic  id: Indonesian (Arab Pegon, phonetic)
+  phoneticx       id: Indonesian (Arab Pegon, extended phonetic)
   phonetic        my: Malay (Jawi, phonetic)
 
 ! option
@@ -794,33 +779,30 @@
   grp:lalt_toggle      Left Alt
   grp:caps_toggle      Caps Lock
   grp:shift_caps_toggle Shift+Caps Lock
-  grp:caps_select      Caps Lock to first layout; Shift+Caps Lock to second layout
-  grp:win_menu_select  Left Win to first layout; Right Win/Menu to second layout
-  grp:ctrl_select      Left Ctrl to first layout; Right Ctrl to second layout
+  grp:shift_caps_switch Caps Lock to first layout; Shift+Caps Lock to last layout
+  grp:win_menu_switch  Left Win to first layout; Right Win/Menu to last layout
+  grp:lctrl_rctrl_switch Left Ctrl to first layout; Right Ctrl to last layout
   grp:alt_caps_toggle  Alt+Caps Lock
-  grp:shifts_toggle    Both Shifts together
-  grp:alts_toggle      Both Alts together
-  grp:alt_altgr_toggle Both Alts together; AltGr alone chooses third level
-  grp:ctrls_toggle     Both Ctrls together
+  grp:shifts_toggle    Both Shift together
+  grp:alts_toggle      Both Alt together
+  grp:ctrls_toggle     Both Ctrl together
   grp:ctrl_shift_toggle Ctrl+Shift
   grp:lctrl_lshift_toggle Left Ctrl+Left Shift
   grp:rctrl_rshift_toggle Right Ctrl+Right Shift
   grp:ctrl_alt_toggle  Alt+Ctrl
   grp:alt_shift_toggle Alt+Shift
   grp:lalt_lshift_toggle Left Alt+Left Shift
-  grp:ralt_rshift_toggle Right Alt+Right Shift
+  grp:alt_space_toggle Alt+Space
   grp:menu_toggle      Menu
   grp:lwin_toggle      Left Win
-  grp:alt_space_toggle Alt+Space
   grp:win_space_toggle Win+Space
-  grp:ctrl_space_toggle Ctrl+Space
   grp:rwin_toggle      Right Win
   grp:lshift_toggle    Left Shift
   grp:rshift_toggle    Right Shift
   grp:lctrl_toggle     Left Ctrl
   grp:rctrl_toggle     Right Ctrl
   grp:sclk_toggle      Scroll Lock
-  grp:lctrl_lwin_rctrl_menu Ctrl+Left Win to first layout; Ctrl+Menu to second layout
+  grp:lctrl_lwin_rctrl_menu Left Ctrl+Left Win to first layout; Right Ctrl+Menu to second layout
   grp:lctrl_lwin_toggle Left Ctrl+Left Win
   lv2                  Key to choose the 2nd level
   lv2:lsgt_switch      The "&lt; &gt;" key
@@ -846,7 +828,7 @@
   ctrl:nocaps          Caps Lock as Ctrl
   ctrl:lctrl_meta      Left Ctrl as Meta
   ctrl:swapcaps        Swap Ctrl and Caps Lock
-  ctrl:hyper_capscontrol Caps Lock as Ctrl, Ctrl as Hyper
+  ctrl:swapcaps_hyper  Caps Lock as Ctrl, Ctrl as Hyper
   ctrl:ac_ctrl         To the left of "A"
   ctrl:aa_ctrl         At the bottom left
   ctrl:rctrl_ralt      Right Ctrl as Right Alt
@@ -928,7 +910,6 @@
   compose:102          The "&lt; &gt;" key
   compose:102-altgr    3rd level of the "&lt; &gt;" key
   compose:paus         Pause
-  compose:ins          Insert
   compose:prsc         PrtSc
   compose:sclk         Scroll Lock
   compat               Compatibility options
@@ -941,9 +922,9 @@
   shift:breaks_caps    Shift cancels Caps Lock
   misc:typo            Enable extra typographic characters
   misc:apl             Enable APL overlay characters
-  shift:both_capslock  Both Shifts together enable Caps Lock
-  shift:both_capslock_cancel Both Shifts together enable Caps Lock; one Shift key disables it
-  shift:both_shiftlock Both Shifts together enable Shift Lock
+  shift:both_capslock  Both Shift together enable Caps Lock
+  shift:both_capslock_cancel Both Shift together enable Caps Lock; one Shift key disables it
+  shift:both_shiftlock Both Shift together enable Shift Lock
   keypad:pointerkeys   Shift + Num Lock enables PointerKeys
   grab:break_actions   Allow breaking grabs with keyboard actions (warning: security risk)
   grab:debug           Allow grab and window tree logging
@@ -954,21 +935,17 @@
   eurosign:5           Euro on 5
   rupeesign:4          Rupee on 4
   lv5                  Key to choose 5th level
-  lv5:caps_switch      Caps Lock chooses 5th level
   lv5:lsgt_switch      The "&lt; &gt;" key chooses 5th level
   lv5:ralt_switch      Right Alt chooses 5th level
   lv5:menu_switch      Menu chooses 5th level
-  lv5:rctrl_switch     Right Ctrl chooses 5th level
   lv5:lsgt_switch_lock The "&lt; &gt;" key chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
   lv5:ralt_switch_lock Right Alt chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
   lv5:lwin_switch_lock Left Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
   lv5:rwin_switch_lock Right Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
   lv5:lsgt_switch_lock_cancel The "&lt; &gt;" key chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
-  lv5:caps_switch      Caps Lock chooses 5th level
   lv5:lsgt_switch      The "&lt; &gt;" key chooses 5th level
   lv5:ralt_switch      Right Alt chooses 5th level
   lv5:menu_switch      Menu chooses 5th level
-  lv5:rctrl_switch     Right Ctrl chooses 5th level
   lv5:lsgt_switch_lock The "&lt; &gt;" key chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
   lv5:ralt_switch_lock Right Alt chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
   lv5:lwin_switch_lock Left Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser
@@ -977,6 +954,7 @@
   nbsp:none            Usual space at any level
   nbsp:level2          Non-breaking space at the 2nd level
   nbsp:level3          Non-breaking space at the 3rd level
+  nbsp:level3s         Non-breaking space at the 3rd level, nothing at the 4th level
   nbsp:level3n         Non-breaking space at the 3rd level, thin non-breaking space at the 4th level
   nbsp:level4          Non-breaking space at the 4th level
   nbsp:level4n         Non-breaking space at the 4th level, thin non-breaking space at the 6th level
@@ -985,6 +963,7 @@
   nbsp:zwnj2zwj3       Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level
   nbsp:zwnj2zwj3nb4    Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level, non-breaking space at the 4th level
   nbsp:zwnj2nb3        Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level
+  nbsp:zwnj2nb3s       Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, nothing at the 4th level
   nbsp:zwnj2nb3zwj4    Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, zero-width joiner at the 4th level
   nbsp:zwnj2nb3nnb4    Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, thin non-breaking space at the 4th level
   nbsp:zwnj3zwj4       Zero-width non-joiner at the 3rd level, zero-width joiner at the 4th level
